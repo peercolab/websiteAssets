@@ -1,0 +1,263 @@
+/* #0B0F38 */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* outline: 1px red solid; */
+}
+a{
+   text-decoration: none;
+}
+
+body{
+   font-family: 'Source Sans Pro', sans-serif;
+   overflow-x: hidden;
+}
+.text-center{ text-align: center;}
+
+/* SHOWCASE */
+.showcase{
+   width: 1440px;
+   height: 924px;
+   background:  #0B0F38;
+}
+
+.showcase h1{
+   /* font-family: Source Sans Pro; */
+   font-style: normal;
+   font-weight: 900;
+   font-size: 50px;
+   text-align: center;
+   line-height: 100%;
+   color: #FAFAFA;
+   padding-top: 9rem;
+}
+.showcase h1 span{
+   background: #E54D42;
+   width: 406px;
+   height: 58px;
+   width: 406px;
+   padding: 0px 15px ;
+   display: block;
+   margin: 10px auto;
+   transform: rotate(-2.24deg);
+   margin-bottom: 15px;
+}
+.showcase > div{
+   width: 780px;
+   display: flex;
+   justify-content: center;
+   margin-left: 295px;
+}
+.showcase h3 {
+   color: #ffffff;
+   padding: 48px 48px;
+}
+.showcase p{
+   padding-top: 24px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 150%;
+   text-align: center;
+   color: #C9D5FF;
+}
+
+.hello{
+   position: absolute;
+   top: 45px;
+   right: 35px;
+   padding-bottom: 10px;
+}
+.line{
+position: absolute;
+width: 74px;
+height: 2px;
+right: 95px;
+top: 78px;
+}
+
+.ellipse30{
+   position: absolute;
+   width: 37px;
+   height: 37px;
+   left: 69.32px;
+   top: 668px;
+   background: #F5E3DB;
+   transform: rotate(22.77deg);
+   border-radius: 50%;
+}
+.rect-93{
+   position: absolute;
+   width: 143px;
+   height: 143px;
+   left: 155px;
+   top: 508px;
+}
+
+.rect-99{
+   position: absolute;
+   width: 95px;
+   height: 95px;
+   left: 397px;
+   top: 739px;
+}
+.rect-94{
+position: absolute;
+width: 214px;
+height: 214px;
+left: 680px;
+top: 630px;
+}
+.ellipse19 {
+   position: absolute;
+   width: 95px;
+   height: 95px;
+   left: 505px;
+   top: 547px;
+}
+.ellipse20 {
+   position: absolute;
+   width: 143px;
+height: 143px;
+left: 859px;
+top: 505px;
+}
+.ellipse21 {
+   position: absolute;
+   width: 95px;
+   height: 95px;
+   left: 1189px;
+   top: 544px;
+}
+.ellipse30i {
+position: absolute;
+width: 95px;
+height: 95px;
+left: 1081px;
+top: 733px;
+}
+.ellipse30ii{
+position: absolute;
+width: 17.46px;
+height: 17.46px;
+left: 1136.63px;
+top: 462.02px;
+}
+.ellipse30iii{
+   position: absolute;
+   width: 17.46px;
+   height: 17.46px;
+   left: 1059.75px;
+   top: 815px;
+}
+
+.abt-container{
+   max-width: 835px;
+   margin: auto;
+}
+.about{
+position: absolute;
+width: 959px;
+height: 408px;
+left: 240px;
+top: 881px;
+background: #FAFAFA;
+border: 3px solid #EFEFF4;
+border-radius: 10px;
+}
+.about2{
+position: absolute;
+width: 959px;
+height: 408px;
+left: 240px;
+top: 2811px;
+background: #FAFAFA;
+border: 3px solid #EFEFF4;
+border-radius: 10px;
+
+}
+.mission h3, .about-us h3{
+   
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 100%;
+padding-top: 54px;
+padding-bottom: 28px;
+}
+.mission p, .about-us p{
+   padding-left: 60px;
+}
+.underline1, .underline2{
+display: block;
+}
+/* approach */
+.approach{
+   color: #272C62;
+   background: #E5E5E5;
+}
+.approach h2{
+   font-family: 'Typo Grotesk Rounded', sans-serif;
+}
+
+.app-container{
+   max-width: 1200px;
+   margin: auto;
+}
+
+.approach-container{
+   display: flex;
+}
+
+.approach-list{
+   flex: 1;
+   margin: 50px;
+   padding-top: 420px;
+   width: 300px;
+   font-family: 'Neue Haas Unica' sans-serif;
+}
+.approach-list img{
+   padding-bottom: 23px;
+}
+.community{
+   font-family: 'Typo Grotesk Rounded', sans-serif;
+                                                
+}
+.community h2{
+padding-top: 10rem;
+font-family: 'Typo Grotesk Rounded', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 100%;
+color: #272C62;
+}
+.com-list{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 15px;
+   padding: 6rem;
+   padding-top: 9rem;
+   margin: auto;
+}
+.community-img{
+   margin-bottom: 20px;
+   width: 300px;
+   height: 250px;
+}
+.community-list {
+   width: 300px;
+   margin-bottom: 6rem;
+}
+.community-list h5{
+   font-size: 26px;
+   color: #272C62;
+   margin-bottom: 10px;
+}
+footer{
+   background: url('../websiteAssets/footerbackground.png')no-repeat center center/cover;
+   width: 1440px;
+   height: 531px;
+}
